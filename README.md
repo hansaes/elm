@@ -2,6 +2,10 @@
 
 docker run --name elmsign -d -p 30880:8080 hansaes/elmsign
 
+## 更换地址或者端口
+
+在common.js文件中修改  自行替换对应的ip
+process.env.HOST = 'http://localhost:30880'
 
 ## 拉库即用
 ```
@@ -12,3 +16,6 @@ ql repo https://github.com/hanses/elm.git "^ele" "" "USER|common|ql|sendNotify1|
 环境变量：allTime 请求总时长单位（秒）默认 20 秒 export allTime="20" <br />
 
 [![Page Views Count](https://badges.toozhao.com/badges/01HCPMWWDQF3D4WM8Y3JRM1N09/green.svg)](https://badges.toozhao.com/stats/01HCPMWWDQF3D4WM8Y3JRM1N09 "Get your own page views count badge on badges.toozhao.com")
+
+## 联系方式
+437477052
