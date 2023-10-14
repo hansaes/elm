@@ -4,7 +4,7 @@ docker run --name elmsign -d -p 30880:8080 hansaes/elmsign
 
 ## 更换地址或者端口
 
-在common.js文件中修改  自行替换对应的ip \n
+在common.js文件中修改  自行替换对应的ip  
 process.env.HOST = 'http://localhost:30880'
 
 ## 拉库即用
